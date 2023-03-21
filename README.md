@@ -9,8 +9,10 @@ git config --global init.defaultBranch main
 git config --list
 ```
 ## Usar visual studio code como editor de git
+```
 git config --global core.editor "code --wait"
 git config --global -e
+```
 ## Hacer compatible Windows con Linux y Mac
 git config --global core.autocrlf true
 ## Ver todas las opciones de la configuración en la terminal
