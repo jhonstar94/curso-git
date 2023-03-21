@@ -16,30 +16,30 @@ git config -h
 ## Ver todas las opciones de la configuración en el navegador
 git help config
 # Inicializar  _Git_  en un directorio local
-##### Crear Carpeta
+#### Crear Carpeta
 mkdir carpeta
-##### Dirigirse a la carpeta
+#### Dirigirse a la carpeta
 cd carpeta
-##### Crear Archivos
+#### Crear Archivos
 type nul > README.md
 type nul > .gitignore
-##### Iniciar Git por primera vez
+#### Iniciar Git por primera vez
 git init
-##### Abrir la configuración de Git en el Editor
+#### Abrir la configuración de Git en el Editor
 code .
 # Flujo Básico de Git
-#### agregar los cambios de un archivo al staged
+### agregar los cambios de un archivo al staged
 git add archivo/directorio
-#### agregar todos los cambios de todos los archivos al staged
+### agregar todos los cambios de todos los archivos al staged
 git add .
 Los cambios son comprometidos en el repositorio, debes escribir el mensaje del cambio cuando se abra el archivo de configuración al terminar guarda y cierra el archivo para que los cambios tengan efecto
-#### Para agregar una modificación con título
+### Para agregar una modificación con título
 git commit -m "mensaje descriptivo del cambio"
-#### Se agrega el origen remoto de tu repositorio de GitHub previamente creado en github.com
+### Se agrega el origen remoto de tu repositorio de GitHub previamente creado en github.com
 git remote add origin https://github.com/usuario/repositorio.git
-#### La primera vez que vinculamos el repositorio remoto con el local
+### La primera vez que vinculamos el repositorio remoto con el local
 git push -u origin master
-#### Para futuras actualizaciones, si no cambias de rama
+### Para futuras actualizaciones, si no cambias de rama
 git push
-#### Para descargar los cambios del repositorio remoto al local
+### Para descargar los cambios del repositorio remoto al local
 git pull
