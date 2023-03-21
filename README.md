@@ -1,11 +1,13 @@
 # Curso de _Git_ & _GitHut_
 ## Configuracion
+```
 git --version
 git config --global user.name "Jhonatan"
 git config --global user.email correo@gmail.com
 git config --global user.ui true
 git config --global init.defaultBranch main
 git config --list
+```
 ## Usar visual studio code como editor de git
 git config --global core.editor "code --wait"
 git config --global -e
