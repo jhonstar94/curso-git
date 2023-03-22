@@ -80,10 +80,8 @@ git pull
 ### Para clonar un repositorio
 ```
 git clone https://github.com/jhonstar94/curso-git.git
-
-#Crear Ramas y trabajar en ellas
-
 ```
+# Crear Ramas y trabajar en ellas
 ### crear rama
 ```
 git branch nombre-rama
