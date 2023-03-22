@@ -77,3 +77,7 @@ git push
 ```
 git pull
 ```
+### Para clonar un repositorio
+```
+git clone https://github.com/jhonstar94/curso-git.git
+```
