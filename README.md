@@ -132,3 +132,20 @@ git branch --merged
 git checkout rama-secundaria
 git rebase rama-principal
 ```
+# Editar commit sin crear uno nuevo
+### ⚠️ Posdata: puede haber conflictos si ya se hizo previamente un push ⚠️
+
+### Sin editar el mensaje del último commit
+```
+git commit --amend --no-edit
+```
+
+### Editando el mensaje del último commit
+```
+git commit --amend -m "nuevo mensaje para el último commit"
+```
+
+### Eliminar el último commit
+```
+git reset --hard HEAD~1
+```
