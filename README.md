@@ -180,3 +180,7 @@ git add .
 git tag -a "v1.0.0" -m "Mensaje de la etiqueta"
 git push --tags
 ```
+# Historial de commits
+```
+git log --oneline
+```
